@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "buildCommand": "npm run vercel-build",
+  "outputDirectory": ".",
+  "builds": [
+    {
+      "src": "static-game.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/static-game.html"
+    }
+  ]
+} 
