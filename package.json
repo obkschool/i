@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "npx serve .",
     "build": "echo 'Static build - nothing to build'",
+    "vercel-build": "echo 'Static build - nothing to build'",
     "start": "npx serve ."
   },
   "keywords": ["tic-tac-toe", "game", "convex", "online", "multiplayer"],
