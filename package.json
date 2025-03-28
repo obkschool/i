@@ -1,0 +1,23 @@
+{
+  "name": "xo-game",
+  "version": "1.0.0",
+  "description": "Online multiplayer Tic-Tac-Toe game with waiting rooms",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "init": "node initConvex.js"
+  },
+  "keywords": ["tic-tac-toe", "game", "convex", "online", "multiplayer"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "convex": "^1.5.1",
+    "next": "^13.4.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "uuid": "^9.0.0",
+    "dotenv": "^16.0.3"
+  }
+}
